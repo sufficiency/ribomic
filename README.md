@@ -5,7 +5,7 @@ What is this bot: The Riot Board Message In Comment (RIBOMIC) bot retrieves the 
 
 Purpose: The purpose of RIBOMIC is two folds. First of all, Riot's Board is very slow to load and does not innately support mobile platforms. Secondly, often leagueoflegends.com is blocked at work. Reposting the content as a comment on Reddit allows better viewing. RIBOMIC will attempt, within its best abilities, to preserve the formatting of the original post.
 
-How to use: Post a link to from Riot's Board on /r/leagueoflegends Reddit. RIBOMIC does not load URLs from comments. If you wish to test the bot, try using /r/sandboxtest or other similar sandbox subreddits (the bot responds to links from any visible subreddits). If you have any questions or suggestions regarding the bot, PM /u/sufficiency. If you enjoy his work and would like the latest updates, consider following him on Twitter.
+How to use: Post a link to from Riot's Board on /r/leagueoflegends Reddit. RIBOMIC does not load URLs from comments. If you wish to test the bot, try using /r/sandboxtest or other similar sandbox subreddits (the bot responds to links from any visible subreddits). If you have any questions or suggestions regarding the bot, PM /u/sufficiency. If you enjoy his work and would like the latest updates, consider following him on [Twitter](https://twitter.com/SufficientStats).
 
 # Setup / Requirements
 * Python 2
