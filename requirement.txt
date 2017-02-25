@@ -1,5 +1,5 @@
 praw==4.1.0
-dateutil==2.6.0
+python-dateutil==2.6.0
 beautifulsoup4==4.5.1
 html2text==2016.9.19
 lxml==3.7.1
