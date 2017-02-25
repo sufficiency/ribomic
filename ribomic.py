@@ -25,7 +25,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     print "RIBOMIC is starting. Reading configuration from " + args.config
-
+    
     # read the config file.
     
     
@@ -75,7 +75,10 @@ if __name__ == "__main__":
                 if test_flag:
                     submissions = reddit.subreddit('sufficiencybottest').new(limit=5)
                 else:
-                    submissions = reddit.get_domain_listing("leagueoflegends.com", "new", limit = 5) 
+                    #submissions = reddit.subreddit('all').get_domain_listing("leagueoflegends.com", "new", limit = 5)
+                    submissions1 = reddit.domain('leagueoflegends.com').new(limit=5)
+                    submissions2 = reddit.domain('lolesports.com').new(limit=5)
+                    submissions = [x for x in submissions1] + [x for x in submissions2]
                 
                 # if we are running this for the first time, we will mark all submissions with ANY replies as worked.
                 # if we are in testing mode, we will always resubmit
