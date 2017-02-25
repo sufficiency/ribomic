@@ -72,7 +72,7 @@ class Comment(object):
         return ">" + body
     
     def process_tail(self):
-        return (" This comment was created by a bot. Find out more [here](https://www.reddit.com/r/sufficiencybot/comments/3bnxfc/riotsboardmessageincommentbot/)." ).replace(" ", " ^") + "  " + '\n'
+        return (" This comment was created by a bot. Find out more [here](https://github.com/sufficiency/ribomic/blob/master/README.md)." ).replace(" ", " ^") + "  " + '\n'
     
     def create_comment(self):
         self.read_url()

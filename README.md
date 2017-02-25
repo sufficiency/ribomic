@@ -11,6 +11,12 @@ How to use: Post a link to from Riot's Board on /r/leagueoflegends Reddit. RIBOM
 * Python 2
 * PhantomJS
 
+For PhantomJS, follow the instructions [here](https://gist.github.com/julionc/7476620#file-00-howto_install_phantomjs-md). RIBOMIC is currently using PhantomJS 2.1.1.
+
+# Output Examples:
+
+Click [here](https://www.reddit.com/user/sufficiency_bot/).
+
 # Change Log
 
 v0.9b: Code is completely refactored. The bot works lolesports.com articles as well.
