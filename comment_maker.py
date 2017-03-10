@@ -58,6 +58,7 @@ class Comment(object):
             body = self.body.decode('utf-8').replace('\n', "  " + '\n'+">") # re.sub("\[\{quoted\}\]\([^)]+\)", "", result['main']['body'].replace('\n', "  " + '\n'+">"))  #.decode('utf-8')
         except:
             body = self.body.replace('\n', "  " + '\n'+">")
+        body = body.replace("![]", "[embedded link]")
         # for quotes within the message, extract out the name and timestamp, if they are available
         # body = re.sub(r"(\[\{quoted\}\])\(name=([^,]{1,16}).*timestamp=(.{1,10}).*\)", r"[\2 wrote on \3]:", body)
                 # replace {{}} structure with what we need
