@@ -50,7 +50,7 @@ if __name__ == "__main__":
     logging.getLogger().addHandler(logging.StreamHandler())
     
     first_run = True
-        
+    worked_submissions = []
     while True:
         # log in
         try:
@@ -68,7 +68,7 @@ if __name__ == "__main__":
         try:
             # loops for getting comments
             i = 0
-            worked_submissions = []
+            
             while True:
                 
                 # if we are testing, we will only be getting submissions from /r/sufficiencybottest
