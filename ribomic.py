@@ -113,7 +113,7 @@ if __name__ == "__main__":
                                                 if len(messages[counter]) == 1:
                                                     break
                                                 last_comment = last_comment.reply(messages[counter])
-                                                if counter >= 7:
+                                                if counter >= 20:
                                                     logging.info("This reply has more than " + str(counter) + " parts. We will stop now fully knowing we are truncating the original post.")
                                                     break
                                     logging.info("Reply completed without any errors.")
